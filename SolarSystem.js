@@ -40,6 +40,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Fonction pour générer une couleur aléatoire simple test
   function getRandomColor() {
-    return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+    return `#${Math.floor(Math.random() * 100).toString(16)}`;
   }
 });
