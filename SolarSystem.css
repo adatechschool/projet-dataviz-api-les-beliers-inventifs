@@ -1,15 +1,15 @@
+html{
+    background: radial-gradient(#3e3c70, #01000c); 
+    height: 100%;
+}
+
+
 h1{
     color:rgb(175, 240, 255)
 }
 
 .end{
     text-align: end;
-}
-
-body{
-    background-image: ("https://c.pxhere.com/photos/1a/9d/stars_background_blue_photoshop_color_space_sky_dark-610854.jpg!d") ;
-    background-size: 100%;
-
 }
 
 #carte{
@@ -26,7 +26,7 @@ body{
 }
 
 #mercure{
-    width: 1cqmax;
+    width: 1%;
     height: auto;
     position: absolute;
     top:40%;
