@@ -5,8 +5,7 @@ function affichZero(nombre) {
 
 function date() {       
     const infos = new Date();  
-      
-    document.getElementById('date').innerHTML = `${affichZero(infos.getDay())}/${affichZero(infos.getMonth()+1)}/${affichZero(infos.getFullYear())}`
+    document.getElementById('date').innerHTML = `${affichZero(infos.getDate())}/${affichZero(infos.getMonth()+1)}/${affichZero(infos.getFullYear())}`
     document.getElementById('heure').innerHTML = `${affichZero(infos.getHours())}:${affichZero(infos.getMinutes())}:${affichZero(infos.getSeconds())}`
 }
 
