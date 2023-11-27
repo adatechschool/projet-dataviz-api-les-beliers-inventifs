@@ -1,0 +1,84 @@
+body{
+    background-image: ("https://c.pxhere.com/photos/1a/9d/stars_background_blue_photoshop_color_space_sky_dark-610854.jpg!d") ;
+    background-size: 100%;
+
+}
+
+#carte{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+#soleil{
+    width: 5%;
+    height: auto;
+    position: absolute;
+    top:50%;
+    left: 50%; 
+}
+
+#mercure{
+    width: 5%;
+    height: auto;
+    position: absolute;
+    top:40%;
+    left: 40%; 
+}
+
+#venus{
+    width: 5%;
+    height: auto;
+    position: absolute;
+    top:35%;
+    left: 35%; 
+}
+
+#terre{
+    width: 5%;
+    height: auto;
+    position: absolute;
+    top:30%;
+    left: 30%; 
+}
+
+#mars{
+    width: 5%;
+    height: auto;
+    position: absolute;
+    top:25%;
+    left: 25%; 
+}
+
+#jupiter{
+    width: 5%;
+    height: auto;
+    position: absolute;
+    top:20%;
+    left: 20%; 
+}
+
+#saturne{
+    width: 5%;
+    height: auto;
+    position: absolute;
+    top:15%;
+    left: 15%; 
+}
+
+#uranus{
+    width: 5%;
+    height: auto;
+    position: absolute;
+    top:10%;
+    left: 10%; 
+}
+
+#neptune{
+    width: 5%;
+    height: auto;
+    position: absolute;
+    top:%;
+    left: 5%; 
+}
