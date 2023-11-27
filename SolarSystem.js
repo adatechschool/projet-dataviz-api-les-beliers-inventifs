@@ -29,6 +29,13 @@ window.onload = function() {
 };
 
 
+<<<<<<< HEAD
+  // Fonction pour générer une couleur aléatoire simple test
+  function getRandomColor() {
+    return `#${Math.floor(Math.random() * 100).toString(16)}`;
+  }
+});
+=======
 
 // document.addEventListener("DOMContentLoaded", () => {
 //   const planetsContainer = document.getElementById("planets-container");
@@ -75,3 +82,4 @@ window.onload = function() {
 //     return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 //   }
 // });
+>>>>>>> b8f3340d5059f3aec26c023252cb1dc9e9a71cfa
