@@ -22,9 +22,7 @@ window.onload = function() {
     
     let soleilX = (carte.offsetWidth /2) - (soleil.offsetWidth /2)
     let soleilY = (carte.offsetHeight /2) - (soleil.offsetHeight /2)
-    
-    console.log(soleilX)
-    
+      
     soleil.style.position = 'absolute'
     soleil.style.top = soleilY +'px'
     soleil.style.left = soleilX +'px'

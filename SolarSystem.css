@@ -23,12 +23,10 @@ body{
     width: 5%;
     height: auto;
     position: absolute;
-    top:50%;
-    left: 50%; 
 }
 
 #mercure{
-    width: 5%;
+    width: 1cqmax;
     height: auto;
     position: absolute;
     top:40%;
@@ -36,7 +34,7 @@ body{
 }
 
 #venus{
-    width: 5%;
+    width: 2%;
     height: auto;
     position: absolute;
     top:35%;
@@ -44,7 +42,7 @@ body{
 }
 
 #terre{
-    width: 5%;
+    width: 2%;
     height: auto;
     position: absolute;
     top:30%;
@@ -52,7 +50,7 @@ body{
 }
 
 #mars{
-    width: 5%;
+    width: 1%;
     height: auto;
     position: absolute;
     top:25%;
@@ -68,7 +66,7 @@ body{
 }
 
 #saturne{
-    width: 5%;
+    width: 11%;
     height: auto;
     position: absolute;
     top:15%;
@@ -84,7 +82,7 @@ body{
 }
 
 #neptune{
-    width: 5%;
+    width: 3%;
     height: auto;
     position: absolute;
     top: 5%;
