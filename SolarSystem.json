@@ -1,0 +1,25 @@
+
+{
+    "id": "soleil",
+    "name": "Le Soleil",
+    "englishName": "Sun",
+    "isPlanet": false,
+    "moons": null,
+    "inclination": 0,
+    "mass": {
+        "massValue": 1.98900,
+        "massExponent": 30
+    },
+    "vol": {
+        "volValue": 1.41200,
+        "volExponent": 18
+    },
+    "density": 1.00000,
+    "gravity": 0,
+    "escape": 0,
+    "meanRadius": 695508.00000,
+    "equaRadius": 696342.00000,
+    "sideralOrbit": 0,
+    "sideralRotation": 0,
+    "bodyType": "Star"
+}
