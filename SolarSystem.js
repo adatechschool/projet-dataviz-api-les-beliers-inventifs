@@ -25,17 +25,38 @@ window.onload = function() {
     soleil.style.position = 'absolute'
     soleil.style.top = soleilY +'px'
     soleil.style.left = soleilX +'px'
+
+
+     //position du soleil en fonction de la carte de fond
+     let ceinture = window.document.getElementById("ceinture")
+     
+     let ceintureX = (carte.offsetWidth /2) - (ceinture.offsetWidth /2)
+     let ceintureY = (carte.offsetHeight /2) - (ceinture.offsetHeight /2)
+       
+     ceinture.style.position = 'absolute'
+     ceinture.style.top = ceintureY +'px'
+     ceinture.style.left = ceintureX +'px'
     
 };
 
 
-<<<<<<< HEAD
-  // Fonction pour générer une couleur aléatoire simple test
-  function getRandomColor() {
-    return `#${Math.floor(Math.random() * 100).toString(16)}`;
-  }
-});
-=======
+    
+
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // document.addEventListener("DOMContentLoaded", () => {
 //   const planetsContainer = document.getElementById("planets-container");
@@ -82,4 +103,3 @@ window.onload = function() {
 //     return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 //   }
 // });
->>>>>>> b8f3340d5059f3aec26c023252cb1dc9e9a71cfa

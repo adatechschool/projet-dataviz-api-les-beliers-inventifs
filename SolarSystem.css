@@ -57,6 +57,13 @@ h1{
     left: 25%; 
 }
 
+#ceinture{
+    width: 25%;
+    height: auto;
+    position: absolute;
+  
+  }
+
 #jupiter{
     width: 5%;
     height: auto;
