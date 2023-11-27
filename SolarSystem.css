@@ -1,7 +1,15 @@
-body{
-    background-image: ("https://c.pxhere.com/photos/1a/9d/stars_background_blue_photoshop_color_space_sky_dark-610854.jpg!d") ;
-    background-size: 100%;
+html{
+    background: radial-gradient(#3e3c70, #01000c); 
+    height: 100%;
+}
 
+
+h1{
+    color:rgb(175, 240, 255)
+}
+
+.end{
+    text-align: end;
 }
 
 #carte{
@@ -15,12 +23,10 @@ body{
     width: 5%;
     height: auto;
     position: absolute;
-    top:50%;
-    left: 50%; 
 }
 
 #mercure{
-    width: 5%;
+    width: 1%;
     height: auto;
     position: absolute;
     top:40%;
@@ -28,7 +34,7 @@ body{
 }
 
 #venus{
-    width: 5%;
+    width: 2%;
     height: auto;
     position: absolute;
     top:35%;
@@ -36,7 +42,7 @@ body{
 }
 
 #terre{
-    width: 5%;
+    width: 2%;
     height: auto;
     position: absolute;
     top:30%;
@@ -44,7 +50,7 @@ body{
 }
 
 #mars{
-    width: 5%;
+    width: 1%;
     height: auto;
     position: absolute;
     top:25%;
@@ -60,7 +66,7 @@ body{
 }
 
 #saturne{
-    width: 5%;
+    width: 11%;
     height: auto;
     position: absolute;
     top:15%;
@@ -76,7 +82,7 @@ body{
 }
 
 #neptune{
-    width: 5%;
+    width: 3%;
     height: auto;
     position: absolute;
     top: 5%;
