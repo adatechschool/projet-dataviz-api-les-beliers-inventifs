@@ -59,18 +59,56 @@ window.onload = function() {
     // console.log(document.querySelector("#soleil"))
     
     //ou alors
-    document.querySelector('#soleil').addEventListener('click', (event) => {
-        for (const element of planets){
-            console.log(element.name, element.englishName)
-            alert(`Nom : ${element.name}\nEnglish Name : ${element.englishName}`)
-        }
 
 
-
-        alert(`Nom : ${soleil.englishName}\nMasse : ${soleil.mass.massValue} ${soleil.mass.massExponent}`)
-        
+    document.querySelector('#soleil').addEventListener('click', (event) => {   
+        let soleil = planets.find(element =>element.name=="Soleil")
+        alert(`Nom : ${soleil.name}\nTaille : Rayon : ${soleil.meanRadius} km\nMasse : ${soleil.mass.massValue} x 10(exposant ${soleil.mass.massExponent}) kg`)    
+     })
+    
+    document.querySelector('#mercure').addEventListener('click', (event) => {    
+        let mercure = planets.find(element =>element.name=="Mercure")
+        console.log(planets)
+        alert(`Nom : ${mercure.name}\nTaille : Rayon : ${mercure.meanRadius} km\nMasse : ${mercure.mass.massValue} x 10(exposant ${mercure.mass.massExponent}) kg\nDistance du Soleil : ${mercure.semimajorAxis} km\nRévolution : ${mercure.sideralOrbit} jours terrestres\nDurée d'une journée : ${mercure.sideralRotation} heures`)    
     })
     
+    document.querySelector('#venus').addEventListener('click', (event) => {    
+        let venus = planets.find(element =>element.name=="Vénus")
+        alert(`Nom : ${venus.name}\nTaille : Rayon : ${venus.meanRadius} km\nMasse : ${venus.mass.massValue} x 10(exposant ${venus.mass.massExponent}) kg\nDistance du Soleil : ${venus.semimajorAxis} km\nRévolution : ${venus.sideralOrbit} jours terrestres\nDurée d'une journée : ${venus.sideralRotation} heures`)    
+    })
 
-    
+    document.querySelector('#terre').addEventListener('click', (event) => {    
+        let terre = planets.find(element =>element.name=="La Terre")
+        alert(`Nom : ${terre.name}\nTaille : Rayon : ${terre.meanRadius} km\nMasse : ${terre.mass.massValue} x 10(exposant ${terre.mass.massExponent}) kg\nDistance du Soleil : ${terre.semimajorAxis} km\nRévolution : ${terre.sideralOrbit} jours terrestres\nDurée d'une journée : ${terre.sideralRotation} heures`)    
+    })
+
+    document.querySelector('#mars').addEventListener('click', (event) => {    
+        let mars = planets.find(element =>element.name=="Mars")
+        alert(`Nom : ${mars.name}\nTaille : Rayon : ${mars.meanRadius} km\nMasse : ${mars.mass.massValue} x 10(exposant ${mars.mass.massExponent}) kg\nDistance du Soleil : ${mars.semimajorAxis} km\nRévolution : ${mars.sideralOrbit} jours terrestres\nDurée d'une journée : ${mars.sideralRotation} heures`)    
+    })
+
+    document.querySelector('#ceinture').addEventListener('click', (event) => {    
+        let ceinture = planets.find(element =>element.name=="Ceinture")
+        alert(`Nom : ${ceinture.name}\nTaille : ${ceinture.meanRadius} km\nMasse : ${ceinture.mass.massValue} x 10(exposant ${mercure.mass.massExponent}) kg\nDistance du Soleil : ${mercure.semimajorAxis} km\nRévolution : ${mercure.sideralOrbit} jours terrestres\nDurée d'une journée : ${mercure.sideralRotation} heures`)    
+    })
+
+    document.querySelector('#jupiter').addEventListener('click', (event) => {   
+        let jupiter = planets.find(element =>element.name=="Jupiter")
+        alert(`Nom : ${jupiter.name}\nTaille : Rayon : ${jupiter.meanRadius} km\nMasse : ${jupiter.mass.massValue} x 10(exposant ${jupiter.mass.massExponent}) kg\nDistance du Soleil : ${jupiter.semimajorAxis} km\nRévolution : ${jupiter.sideralOrbit} jours terrestres\nDurée d'une journée : ${jupiter.sideralRotation} heures`)    
+    })
+
+    document.querySelector('#saturne').addEventListener('click', (event) => {   
+        let saturne = planets.find(element =>element.name=="Saturne")
+        alert(`Nom : ${saturne.name}\nTaille : Rayon : ${saturne.meanRadius} km\nMasse : ${saturne.mass.massValue} x 10(exposant ${saturne.mass.massExponent}) kg\nDistance du Soleil : ${saturne.semimajorAxis} km\nRévolution : ${saturne.sideralOrbit} jours terrestres\nDurée d'une journée : ${saturne.sideralRotation} heures`)    
+    })
+
+    document.querySelector('#uranus').addEventListener('click', (event) => {   
+        let uranus = planets.find(element =>element.name=="Uranus")
+        alert(`Nom : ${uranus.name}\nTaille : Rayon : ${uranus.meanRadius} km\nMasse : ${uranus.mass.massValue} x 10(exposant ${uranus.mass.massExponent}) kg\nDistance du Soleil : ${uranus.semimajorAxis} km\nRévolution : ${uranus.sideralOrbit} jours terrestres\nDurée d'une journée : ${uranus.sideralRotation} heures`)    
+    })
+
+    document.querySelector('#neptune').addEventListener('click', (event) => {  
+        let neptune = planets.find(element =>element.name=="Neptune")
+        alert(`Nom : ${neptune.name}\nTaille : Rayon : ${neptune.meanRadius} km\nMasse : ${neptune.mass.massValue} x 10(exposant ${neptune.mass.massExponent}) kg\nDistance du Soleil : ${neptune.semimajorAxis} km\nRévolution : ${neptune.sideralOrbit} jours terrestres\nDurée d'une journée : ${neptune.sideralRotation} heures`)    
+    })
 
