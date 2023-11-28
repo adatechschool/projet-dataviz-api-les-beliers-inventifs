@@ -19,8 +19,15 @@ h1{
     top: 0;
     left: 0;
 }
+
 #soleil{
     width: 5%;
+    height: auto;
+    position: absolute;
+}
+
+#ceinture{
+    width: 40%;
     height: auto;
     position: absolute;
 }
@@ -29,62 +36,62 @@ h1{
     width: 1%;
     height: auto;
     position: absolute;
-    top:40%;
-    left: 40%; 
+    top:46%;
+    left: 46%; 
 }
 
 #venus{
     width: 2%;
     height: auto;
     position: absolute;
-    top:35%;
-    left: 35%; 
+    top:43%;
+    left: 43%; 
 }
 
 #terre{
     width: 2%;
     height: auto;
     position: absolute;
-    top:30%;
-    left: 30%; 
+    top:40%;
+    left: 40%; 
 }
 
 #mars{
     width: 1%;
     height: auto;
     position: absolute;
-    top:25%;
-    left: 25%; 
+    top:38%;
+    left: 38%; 
 }
 
 #jupiter{
     width: 5%;
     height: auto;
     position: absolute;
-    top:20%;
-    left: 20%; 
+    top:25%;
+    left: 25%; 
 }
 
 #saturne{
     width: 11%;
     height: auto;
     position: absolute;
-    top:15%;
-    left: 15%; 
+    top:13%;
+    left: 13%; 
 }
 
 #uranus{
     width: 5%;
     height: auto;
     position: absolute;
-    top:10%;
-    left: 10%; 
+    top:8%;
+    left: 8%; 
 }
 
 #neptune{
     width: 3%;
     height: auto;
     position: absolute;
-    top: 5%;
-    left: 5%; 
+    top: 3%;
+    left: 3%; 
 }
