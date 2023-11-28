@@ -36,32 +36,32 @@ h1{
     width: 1%;
     height: auto;
     position: absolute;
-    top:46%;
-    left: 46%; 
+    top:42%;
+    left: 50%; 
 }
 
 #venus{
     width: 2%;
     height: auto;
     position: absolute;
-    top:43%;
-    left: 43%; 
+    top:42%;
+    left: 45%; 
 }
 
 #terre{
     width: 2%;
     height: auto;
     position: absolute;
-    top:40%;
-    left: 40%; 
+    top:59%;
+    left: 50%; 
 }
 
 #mars{
     width: 1%;
     height: auto;
     position: absolute;
-    top:38%;
-    left: 38%; 
+    top:61%;
+    left: 55%; 
 }
 
 #ceinture{
@@ -75,30 +75,30 @@ h1{
     width: 5%;
     height: auto;
     position: absolute;
-    top:25%;
-    left: 25%; 
+    top:30%;
+    left: 32%; 
 }
 
 #saturne{
     width: 11%;
     height: auto;
     position: absolute;
-    top:13%;
-    left: 13%; 
+    top:55%;
+    left: 70%; 
 }
 
 #uranus{
     width: 5%;
     height: auto;
     position: absolute;
-    top:8%;
-    left: 8%; 
+    top:35%;
+    left: 90%; 
 }
 
 #neptune{
     width: 3%;
     height: auto;
     position: absolute;
-    top: 3%;
-    left: 3%; 
+    top: 65%;
+    left: 10%; 
 }
