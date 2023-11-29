@@ -41,7 +41,6 @@ ou faire une classe et l'intégrer dans le html*/
     width: 40%;
     height: auto;
     position: absolute;
-    cursor: pointer;
 }
 
 #mercure{
@@ -50,7 +49,6 @@ ou faire une classe et l'intégrer dans le html*/
     position: absolute;
     top:42%;
     left: 50%;
-    cursor: pointer;
     cursor: pointer;
 }
 
@@ -61,7 +59,6 @@ ou faire une classe et l'intégrer dans le html*/
     top:42%;
     left: 45%;
     cursor: pointer;
-    cursor: pointer; 
 }
 
 #terre{
@@ -71,7 +68,6 @@ ou faire une classe et l'intégrer dans le html*/
     top:59%;
     left: 50%;
     cursor: pointer;
-    cursor: pointer; 
 }
 
 #mars{
@@ -80,7 +76,6 @@ ou faire une classe et l'intégrer dans le html*/
     position: absolute;
     top:61%;
     left: 55%;
-    cursor: pointer;
     cursor: pointer;
 }
 
@@ -97,7 +92,6 @@ ou faire une classe et l'intégrer dans le html*/
     position: absolute;
     top:30%;
     left: 32%;
-    cursor: pointer;
     cursor: pointer; 
 }
 
@@ -108,7 +102,6 @@ ou faire une classe et l'intégrer dans le html*/
     top:55%;
     left: 70%;
     cursor: pointer;
-    cursor: pointer; 
 }
 
 #uranus{
@@ -117,7 +110,6 @@ ou faire une classe et l'intégrer dans le html*/
     position: absolute;
     top:35%;
     left: 90%;
-    cursor: pointer;
     cursor: pointer; 
 }
 
@@ -128,7 +120,6 @@ ou faire une classe et l'intégrer dans le html*/
     top: 65%;
     left: 10%;
     cursor: pointer;
-    cursor: pointer; 
 }
 
 #soleil:hover {
