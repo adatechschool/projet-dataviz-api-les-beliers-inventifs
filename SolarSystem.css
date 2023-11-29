@@ -18,9 +18,12 @@ html{
 /* si on enlève le pointeur de toutes les img (ceinture), mettre la ligne dans chaque #concerné
 ou faire une classe et l'intégrer dans le html*/
 
-.end{
+/* .end{
     text-align: end;
-}
+} */
+
+/*position horloge*/
+
 
 #carte{
     position: absolute;

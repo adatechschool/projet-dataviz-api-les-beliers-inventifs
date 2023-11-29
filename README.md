@@ -2,7 +2,7 @@
 
 ### Projet d'études d'appel d'API sur une interface graphique.
 
-![My Image](images/Aperçu.jpg)
+![My Image](images/Apercu.jpg)
 
 Visualisation schématique du système solaire avec informations sur les astres lorsqu'on clique dessus : Nom, Taille, Masse, Distance du soleil, Révolution, Durée d'une journée, Nombre de lunes.
 
