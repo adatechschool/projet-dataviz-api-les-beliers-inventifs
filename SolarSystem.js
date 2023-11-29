@@ -43,28 +43,6 @@ window.onload = function() {
   // Récupère les données de l'API
     let planets = undefined
 
-<<<<<<< HEAD
-document.getElementById("carte").addEventListener("click", function(){
-
-
-
-   // Récupère les données de l'API
-   fetch("https://api.le-systeme-solaire.net/rest/bodies/")
-     .then(response => response.json())
-     .then(data => {
-       const planets = data.bodies.filter(body => body.isPlanet && body.englishName !== "soleil");
-
-     })
-//       // Crée des éléments HTML pour chaque planète
-//       planets.forEach(planet => {
-//         const newPlanet = document.createElement("div");
-//         newPlanet.className = "planet";
-//         newPlanet.style.backgroundColor = getRandomColor();
-//         newPlanet.style.left = `${Math.random() * 80}vw`; // Position aléatoire simple test
-//         newPlanet.style.top = `${Math.random() * 80}vh`; // Position aléatoire simple test
-//         newPlanet.title = planet.englishName;
-//         newPlanet.onclick = () => displayPlanetInfo(planet);
-=======
   fetch("https://api.le-systeme-solaire.net/rest/bodies/")
     .then(response => response.json())
     .then(data => {
@@ -72,7 +50,6 @@ document.getElementById("carte").addEventListener("click", function(){
     })
     .catch(error => console.error("Erreur de chargement des données :", error));
 
->>>>>>> 513ad0d3e4f1dac3af657bb763dc964a4276f226
 
     //onclick
     // document.querySelector("#soleil").onclick = function displayPlanetInfo(planet) {
@@ -83,31 +60,6 @@ document.getElementById("carte").addEventListener("click", function(){
     
     //ou alors
 
-<<<<<<< HEAD
-//       // Ajoute le Soleil
-//       const sun = document.createElement("div");
-//       soleil.id = "soleil";
-//       sun.style.left = "40vw"; // Position du Soleil
-//       sun.style.top = "40vh"; // Position du Soleil
-//       soleil.title = "Sun";
-//       soleil.onclick = () => displayPlanetInfo(data.bodies.find(body => body.englishName === "Sun"));
-
-//       planetsContainer.appendChild(sun);
-//     })
-     .catch(error => console.error("Erreur de chargement des données :", error));
-
-//   // Fonction pour afficher les informations d'une planète qu'on pourra changer + ajout d'infos
-   function displayPlanetInfo(planet) {
-     alert(`Nom : ${planet.englishName}\nMasse : ${planet.mass.massValue} ${planet.mass.massExponent}`);
-     // Personnalisation des infos (pas d'idée pour faire plus court)
-   }
-
-//   // Fonction pour générer une couleur aléatoire simple test
-//   function getRandomColor() {
-//     return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-//   }
- });
-=======
 
     document.querySelector('#soleil').addEventListener('click', (event) => {   
         let soleil = planets.find(element =>element.name=="Soleil")
@@ -160,4 +112,3 @@ document.getElementById("carte").addEventListener("click", function(){
         alert(`Nom : ${neptune.name}\nTaille : Rayon : ${neptune.meanRadius} km\nMasse : ${neptune.mass.massValue} x 10(exposant ${neptune.mass.massExponent}) kg\nDistance du Soleil : ${neptune.semimajorAxis} km\nRévolution : ${neptune.sideralOrbit} jours terrestres\nDurée d'une journée : ${neptune.sideralRotation} heures`)    
     })
 
->>>>>>> 513ad0d3e4f1dac3af657bb763dc964a4276f226

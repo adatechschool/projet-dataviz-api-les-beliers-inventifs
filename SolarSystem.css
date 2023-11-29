@@ -37,7 +37,8 @@ h1{
     height: auto;
     position: absolute;
     top:42%;
-    left: 50%; 
+    left: 50%;
+    cursor: pointer;
 }
 
 #venus{
@@ -45,7 +46,8 @@ h1{
     height: auto;
     position: absolute;
     top:42%;
-    left: 45%; 
+    left: 45%;
+    cursor: pointer; 
 }
 
 #terre{
@@ -53,7 +55,8 @@ h1{
     height: auto;
     position: absolute;
     top:59%;
-    left: 50%; 
+    left: 50%;
+    cursor: pointer; 
 }
 
 #mars{
@@ -61,7 +64,8 @@ h1{
     height: auto;
     position: absolute;
     top:61%;
-    left: 55%; 
+    left: 55%;
+    cursor: pointer;
 }
 
 #ceinture{
@@ -76,7 +80,8 @@ h1{
     height: auto;
     position: absolute;
     top:30%;
-    left: 32%; 
+    left: 32%;
+    cursor: pointer; 
 }
 
 #saturne{
@@ -84,7 +89,8 @@ h1{
     height: auto;
     position: absolute;
     top:55%;
-    left: 70%; 
+    left: 70%;
+    cursor: pointer; 
 }
 
 #uranus{
@@ -92,7 +98,8 @@ h1{
     height: auto;
     position: absolute;
     top:35%;
-    left: 90%; 
+    left: 90%;
+    cursor: pointer; 
 }
 
 #neptune{
@@ -100,5 +107,6 @@ h1{
     height: auto;
     position: absolute;
     top: 65%;
-    left: 10%; 
+    left: 10%;
+    cursor: pointer; 
 }
