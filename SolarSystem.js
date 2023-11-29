@@ -116,7 +116,7 @@ Durée d'une journée : ${mars.sideralRotation} heures\nNombre de lunes : ${mars
 
     // document.querySelector('#ceinture').addEventListener('click', (event) => {    
     //     let ceinture = planets.find(element =>element.name=="Ceinture")
-    //     alert(`Nom : ${ceinture.name}\nTaille : ${ceinture.meanRadius} km\nMasse : ${ceinture.mass.massValue} x 10(exposant ${mercure.mass.massExponent}) kg\nDistance du Soleil : ${mercure.semimajorAxis} km\nRévolution : ${mercure.sideralOrbit} jours terrestres\nDurée d'une journée : ${mercure.sideralRotation} heures`)    
+    //     alert(`Nom : ${ceinture.name}\nTaille : ${ceinture.meanRadius} km\nDistance du Soleil : ${ceinture.semimajorAxis} km`)    
     // })
 
     document.querySelector('#jupiter').addEventListener('click', (event) => {   
@@ -152,4 +152,4 @@ Durée d'une journée : ${neptune.sideralRotation} heures\nNombre de lunes : ${n
     })
 
 
-//pas d'infos sur la ceinture. supprimer le fetch et le query. supprimer le pointeur. supprimer l'image ??
+

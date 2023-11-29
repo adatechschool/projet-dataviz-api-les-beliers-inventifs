@@ -3,12 +3,18 @@ html{
     height: 100%;
 }
 
+/* .end{
+    text-align: end;
+} */
+
+/*position horloge*/
 
 /* h1{
     color:rgb(175, 240, 255)
 } */
 
 /*couleur horloge*/
+
 
 
  /* img:hover{
@@ -18,11 +24,7 @@ html{
 /* si on enlève le pointeur de toutes les img (ceinture), mettre la ligne dans chaque #concerné
 ou faire une classe et l'intégrer dans le html*/
 
-/* .end{
-    text-align: end;
-} */
 
-/*position horloge*/
 
 
 #carte{
@@ -40,11 +42,6 @@ ou faire une classe et l'intégrer dans le html*/
     cursor: pointer;
 }
 
-#ceinture{
-    width: 40%;
-    height: auto;
-    position: absolute;
-}
 
 #mercure{
     width: 1%;
