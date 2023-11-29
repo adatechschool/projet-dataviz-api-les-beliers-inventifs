@@ -4,9 +4,19 @@ html{
 }
 
 
-h1{
+/* h1{
     color:rgb(175, 240, 255)
-}
+} */
+
+/*couleur horloge*/
+
+
+/* img:hover{
+    cursor: pointer;
+} */
+
+/* si on enlève le pointeur de toutes les img (ceinture), mettre la ligne dans chaque #concerné
+ou faire une classe et l'intégrer dans le html*/
 
 .end{
     text-align: end;
@@ -24,12 +34,14 @@ h1{
     width: 5%;
     height: auto;
     position: absolute;
+    cursor: pointer;
 }
 
 #ceinture{
     width: 40%;
     height: auto;
     position: absolute;
+    cursor: pointer;
 }
 
 #mercure{
@@ -38,6 +50,7 @@ h1{
     position: absolute;
     top:42%;
     left: 50%; 
+    cursor: pointer;
 }
 
 #venus{
@@ -46,6 +59,7 @@ h1{
     position: absolute;
     top:42%;
     left: 45%; 
+    cursor: pointer;
 }
 
 #terre{
@@ -54,6 +68,7 @@ h1{
     position: absolute;
     top:59%;
     left: 50%; 
+    cursor: pointer;
 }
 
 #mars{
@@ -62,6 +77,7 @@ h1{
     position: absolute;
     top:61%;
     left: 55%; 
+    cursor: pointer;
 }
 
 #ceinture{
@@ -77,6 +93,7 @@ h1{
     position: absolute;
     top:30%;
     left: 32%; 
+    cursor: pointer;
 }
 
 #saturne{
@@ -85,6 +102,7 @@ h1{
     position: absolute;
     top:55%;
     left: 70%; 
+    cursor: pointer;
 }
 
 #uranus{
@@ -93,6 +111,7 @@ h1{
     position: absolute;
     top:35%;
     left: 90%; 
+    cursor: pointer;
 }
 
 #neptune{
@@ -101,4 +120,5 @@ h1{
     position: absolute;
     top: 65%;
     left: 10%; 
+    cursor: pointer;
 }
