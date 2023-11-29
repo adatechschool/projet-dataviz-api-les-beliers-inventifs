@@ -11,8 +11,8 @@ html{
 /*couleur horloge*/
 
 
-/* img:hover{
-    cursor: pointer;
+ /* img:hover{
+    transform: scale(1.5);
 } */
 
 /* si on enlève le pointeur de toutes les img (ceinture), mettre la ligne dans chaque #concerné
@@ -129,4 +129,40 @@ ou faire une classe et l'intégrer dans le html*/
     left: 10%;
     cursor: pointer;
     cursor: pointer; 
+}
+
+#soleil:hover {
+    transform: scale(1.5);
+}
+
+#mercure:hover {
+    transform: scale(2.5);
+}
+
+#venus:hover {
+    transform: scale(1.5);
+}
+
+#terre:hover {
+    transform: scale(1.5);
+}
+
+#mars:hover {
+    transform: scale(2.5);
+}
+
+#jupiter:hover {
+    transform: scale(1.5);
+}
+
+#saturne:hover {
+    transform: scale(1.5);
+}
+
+#uranus:hover {
+    transform: scale(1.5);
+}
+
+#neptune:hover {
+    transform: scale(1.5);
 }
