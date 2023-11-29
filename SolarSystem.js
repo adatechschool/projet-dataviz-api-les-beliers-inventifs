@@ -32,12 +32,17 @@ window.onload = function() {
 // document.addEventListener("DOMContentLoaded", () => {
 //   const planetsContainer = document.getElementById("planets-container");
 
-//   // Récupère les données de l'API
-//   fetch("https://api.le-systeme-solaire.net/rest/bodies/")
-//     .then(response => response.json())
-//     .then(data => {
-//       const planets = data.bodies.filter(body => body.isPlanet && body.englishName !== "Sun");
+document.getElementById("carte").addEventListener("click", function(){
 
+
+
+   // Récupère les données de l'API
+   fetch("https://api.le-systeme-solaire.net/rest/bodies/")
+     .then(response => response.json())
+     .then(data => {
+       const planets = data.bodies.filter(body => body.isPlanet && body.englishName !== "soleil");
+
+     })
 //       // Crée des éléments HTML pour chaque planète
 //       planets.forEach(planet => {
 //         const newPlanet = document.createElement("div");
@@ -53,24 +58,24 @@ window.onload = function() {
 
 //       // Ajoute le Soleil
 //       const sun = document.createElement("div");
-//       sun.id = "sun";
+//       soleil.id = "soleil";
 //       sun.style.left = "40vw"; // Position du Soleil
 //       sun.style.top = "40vh"; // Position du Soleil
-//       sun.title = "Sun";
-//       sun.onclick = () => displayPlanetInfo(data.bodies.find(body => body.englishName === "Sun"));
+//       soleil.title = "Sun";
+//       soleil.onclick = () => displayPlanetInfo(data.bodies.find(body => body.englishName === "Sun"));
 
 //       planetsContainer.appendChild(sun);
 //     })
-//     .catch(error => console.error("Erreur de chargement des données :", error));
+     .catch(error => console.error("Erreur de chargement des données :", error));
 
 //   // Fonction pour afficher les informations d'une planète qu'on pourra changer + ajout d'infos
-//   function displayPlanetInfo(planet) {
-//     alert(`Nom : ${planet.englishName}\nMasse : ${planet.mass.massValue} ${planet.mass.massExponent}`);
-//     // Personnalisation des infos (pas d'idée pour faire plus court)
-//   }
+   function displayPlanetInfo(planet) {
+     alert(`Nom : ${planet.englishName}\nMasse : ${planet.mass.massValue} ${planet.mass.massExponent}`);
+     // Personnalisation des infos (pas d'idée pour faire plus court)
+   }
 
 //   // Fonction pour générer une couleur aléatoire simple test
 //   function getRandomColor() {
 //     return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 //   }
-// });
+ });
