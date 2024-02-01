@@ -13,4 +13,4 @@ Pour lancer le programme : double-click sur le fichier SolarSystem.html
 
 
 
-Par le groupe des béliers inventifs : Loïck Martin, Edith Menechi, Yannick Oudin
+Par le groupe des béliers inventifs : Loïck Marin, Edith Menechi, Yannick Oudin
